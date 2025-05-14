@@ -52,7 +52,7 @@ class World {
         Logger::info("World has been initiated");
     }
     ~World(){
-        for (auto c: characters){cd
+        for (auto c: characters){
             delete c;
         }
         Logger::info("World has been destroyed");

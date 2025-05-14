@@ -41,24 +41,30 @@ const Home = () => {
                 </section>
 
                 <section id="team" className="container text-center py-5">
-                    <h2>Meet the Developers</h2>
+                    <h2>Meet the Bakaits</h2>
                     <div className="row mt-4">
-                        <div className="col-md-4">
+                        <div className="col-md-3">
                             <div className="card p-3 shadow">
                                 <h5>Devansh Ojha</h5>
-                                <p className="text-muted">AI Enthusiast | Optimization Expert</p>
+                                <p className="text-muted">AI Enthusiast</p>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-3">
                             <div className="card p-3 shadow">
                                 <h5>Anuj Singhal</h5>
-                                <p className="text-muted">Software Engineer | Game Theory Specialist</p>
+                                <p className="text-muted">Game Theory Specialist</p>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-3">
                             <div className="card p-3 shadow">
                                 <h5>Rohan Phad</h5>
                                 <p className="text-muted">Full-Stack Developer</p>
+                            </div>
+                        </div>
+                        <div className="col-md-3">
+                            <div className="card p-3 shadow">
+                                <h5>Chinmay Amrutkar</h5>
+                                <p className="text-muted">Software Engineer</p>
                             </div>
                         </div>
                     </div>
