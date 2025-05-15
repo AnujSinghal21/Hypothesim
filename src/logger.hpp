@@ -3,6 +3,8 @@
 #include <string>
 #include <ctime>
 
+#define LOGGER_HPP
+
 class Logger {
     private:
     static std::ofstream file;
